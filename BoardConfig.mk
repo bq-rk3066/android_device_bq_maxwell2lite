@@ -22,9 +22,6 @@ TARGET_BOOTLOADER_BOARD_NAME := bq_Maxwell2Lite
 
 TARGET_OTA_ASSERT_DEVICE := maxwell2lite,bq_Maxwell2Lite
 
-# Audio
-TARGET_PROVIDES_LIBAUDIO := true
-
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/bq/maxwell2lite/bluetooth
 
@@ -38,5 +35,3 @@ BOARD_FLASH_BLOCK_SIZE := 16384
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/bq/maxwell2lite
 TARGET_KERNEL_CONFIG := cyanogenmod_maxwell2lite_defconfig
-TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.4.3
-BOARD_USES_UNCOMPRESSED_BOOT := true

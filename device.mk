@@ -26,11 +26,6 @@ PRODUCT_COPY_FILES += \
 # Config files
 PRODUCT_COPY_FILES += \
     device/bq/maxwell2lite/config/media_profiles.xml:system/etc/media_profiles.xml
-
-# Audio
-PRODUCT_PACKAGES += \
-    audio.primary.rk30board \
-    audio_policy.rk30board
 	
 # Default config
 PRODUCT_PROPERTY_OVERRIDES += \
