@@ -26,6 +26,10 @@ PRODUCT_COPY_FILES += \
 # Config files
 PRODUCT_COPY_FILES += \
     device/bq/maxwell2lite/config/media_profiles.xml:system/etc/media_profiles.xml
+
+# Rootdir blob
+PRODUCT_COPY_FILES += \
+    device/bq/maxwell2lite/rootdir/rk30xxnand.ko.3.0.36+:root/rk30xxnand.ko.3.0.36+
 	
 # Default config
 PRODUCT_PROPERTY_OVERRIDES += \
