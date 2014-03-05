@@ -19,10 +19,6 @@ PRODUCT_AAPT_PREF_CONFIG := mdpi
 
 DEVICE_PACKAGE_OVERLAYS += device/bq/maxwell2lite/overlay
 
-# Hardware-specific features
-PRODUCT_COPY_FILES += \
-    frameworks/native/data/etc/android.hardware.camera.front.xml:system/etc/permissions/android.hardware.camera.front.xml
-
 # Config files
 PRODUCT_COPY_FILES += \
     device/bq/maxwell2lite/config/media_profiles.xml:system/etc/media_profiles.xml
