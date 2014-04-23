@@ -27,6 +27,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/bq/maxwell2lite/rootdir/rk30xxnand_ko.ko.3.0.36+:root/rk30xxnand_ko.ko.3.0.36+
 
+# Prebuilt
+PRODUCT_COPY_FILES += \
+    device/bq/maxwell2lite/prebuilt/updater:obj/EXECUTABLES/updater_intermediates/updater
+
 # Sensors
 PRODUCT_PACKAGES += \
     sensors.rk30board
