@@ -37,4 +37,5 @@ PRODUCT_PACKAGES += \
 	
 # Default config
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.sf.lcd_density=160
+    ro.sf.lcd_density=160 \
+    ro.audio.flinger_standbytime_ms=1000
