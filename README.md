@@ -12,9 +12,7 @@ Use the following local manifest:
     <?xml version="1.0" encoding="UTF-8"?>
     <manifest>
       <remove-project name="CyanogenMod/android_frameworks_av" />
-      <remove-project name="CyanogenMod/android_frameworks_native" />
       <project name="bq-rk3066/android_frameworks_av" path="frameworks/av" revision="cm-11.0" />
-      <project name="bq-rk3066/android_frameworks_native" path="frameworks/native" revision="cm-11.0" />
       <project name="bq-rk3066/android_device_bq_maxwell2lite" path="device/bq/maxwell2lite" revision="cm-11.0" />
       <project name="bq-rk3066/android_device_bq_rockchip-common" path="device/bq/rockchip-common" revision="cm-11.0" />
       <project name="bq-rk3066/android_kernel_bq_rk3066" path="kernel/bq/maxwell2lite" revision="cm-11.0" />
@@ -24,6 +22,7 @@ Use the following local manifest:
 Sync and build:
 
     repo sync -j4
+    vendor/cm/get-prebuilts
     . build/envsetup.sh
     brunch maxwell2lite
 
