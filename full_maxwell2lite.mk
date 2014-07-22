@@ -26,7 +26,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 
 # Inherit the maxwell2lite definitions
 $(call inherit-product, device/bq/maxwell2lite/device.mk)
-$(call inherit-product, vendor/bq/maxwell2lite/maxwell2lite-vendor.mk)
 
 # Inherit the rockchip-common definitions
 $(call inherit-product, device/bq/rockchip-common/device-common.mk)

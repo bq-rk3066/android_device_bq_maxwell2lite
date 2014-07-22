@@ -16,8 +16,6 @@
 
 -include device/bq/rockchip-common/BoardConfigCommon.mk
 
--include vendor/bq/maxwell2lite/BoardConfigVendor.mk
-
 TARGET_BOOTLOADER_BOARD_NAME := bq_Maxwell2Lite
 
 TARGET_OTA_ASSERT_DEVICE := maxwell2lite,bq_Maxwell2Lite
